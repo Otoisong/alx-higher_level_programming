@@ -55,6 +55,7 @@ class Square:
                 if (rows != self.__size - 1):
                     str += "\n"
         return (str)
+
     @property
     def size(self):
         """Getter of the private attribute size"""
